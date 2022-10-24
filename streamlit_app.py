@@ -24,10 +24,10 @@ st.image(image, caption='Water Pumps Status')
 st.text('This app will predict Funtional status of Water Pumps')
 st.text('You can upload the data below :')
 
-col1,col2 = st.beta_columns(2)
+col1,col2 = st.columns(2)
 data = col1.file_uploader('Upload the csv file below',type=['csv'])
 
-col1,col2 = st.beta_columns(2)
+col1,col2 = st.columns(2)
 predict_button = col1.button('Predict on uploaded files')
 test_data = col2.button('Predict on sample data')
 
