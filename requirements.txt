@@ -1,2 +1,2 @@
 tensorflow
-scikit-learn==0.28.5.post1
+scikit-learn
