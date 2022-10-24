@@ -144,7 +144,17 @@ def final_fun_1(X):
   best_model = pickle.load(open('best_model.pkl','rb'))
   y_pred = best_model.predict(X_final)
 
-  return y_pred
+  y_prediction=[]
+
+  for i in y_pred:
+    if i==0.0:
+      y_prediction.append("functional - the waterpoint is operational and there are no repairs needed")
+    elif i==1.0:
+      y_prediction.append("functional needs repair - the waterpoint is operational, but needs repairs")
+    else:
+      y_prediction.append("non functional - the waterpoint is not operational")
+
+  return y_prediction
 
 
 if predict_button:
