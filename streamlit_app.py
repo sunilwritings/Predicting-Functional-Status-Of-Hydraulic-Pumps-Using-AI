@@ -18,7 +18,7 @@ import time
 from PIL import Image
 
 st.title("Water Pumps Status Prediction")
-image = Image.open('hand_pump_diagram.png')
+image = Image.open('hand_pump_diagram.jpg')
 st.image(image, caption='Water Pumps Status')
 
 st.text('This app will predict Funtional status of Water Pumps')
