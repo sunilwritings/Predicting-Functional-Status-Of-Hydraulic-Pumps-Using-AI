@@ -17,11 +17,11 @@ import numpy as np
 import time
 from PIL import Image
 
-st.title("Water Pumps Status Prediction")
+st.title("Can We Predict Functional Status Of Pumps Using AI")
 image = Image.open('hand_pump_diagram.jpg')
-st.image(image, caption='Water Pumps Status')
+st.image(image, caption='Pumps Functional Status')
 
-st.text('This app will predict Funtional status of Water Pumps')
+st.text('This app will predict Funtional status of Pumps')
 st.text('You can upload the data below :')
 
 col1,col2 = st.columns(2)
