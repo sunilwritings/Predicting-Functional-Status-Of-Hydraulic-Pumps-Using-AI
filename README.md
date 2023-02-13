@@ -1,4 +1,4 @@
-# Can-We-Predict-Functional-Status-Of-Hydraulic-Pumps-Using-AI
+# Predicting-Functional-Status-Of-Hydraulic-Pumps-Using-AI
 Case study to automate functional status of hydraulic pumps
 
 This blog is about my self case study where I connected my domain expertise with AI and machine learning frameworks.
